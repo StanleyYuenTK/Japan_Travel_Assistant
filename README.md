@@ -10,18 +10,16 @@ Japan_Travel_Assistant integrates multiple AI capabilities to enhance the travel
 
 The project focuses on four primary functions, each powered by specific AI technologies:
 
-1.  **Japan Itinerary & AI Chat**:
+1.  **Japan Itinerary & AI Chat (with RAG)**:
     *   **AI Model**: [Ollama](https://ollama.com/) (running `gemma3:1b` locally).
-    *   **Description**: Provides personalized travel suggestions and answers queries about Japan travel.
+    *   **Description**: Provides personalized travel suggestions and answers queries about Japan travel. It includes a **RAG (Retrieval-Augmented Generation)** feature that allows users to upload **PDF**, **TXT** files, or provide **URLs**. The local Ollama model analyzes these documents to provide context-aware answers during chat, making it a powerful tool for referencing personal travel documents or specific web information.
 2.  **Text-to-Speech (TTS)**:
     *   **AI Service**: [Azure AI Speech](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/get-started-text-to-speech)
     *   **Description**: Converts assistant responses into natural-sounding speech.
-3.  **RAG (Retrieval-Augmented Generation)**:
-    *   **Description**: Users can upload their own **PDF**, **TXT** files, or provide **URLs**. The AI will analyze these documents to provide context-aware answers during chat, making it a powerful tool for referencing personal travel documents or specific web information.
-4.  **Picture Removal & Upscale**:
+3.  **Picture Removal & Upscale**:
     *   **AI Models**: [Stability AI](https://stability.ai/) (via FastAPI), [Replicate](https://replicate.com/) (via Next.js API), and [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
     *   **Description**: Allows users to remove unwanted people from travel photos and upscale images for better quality.
-5.  **Translation**:
+4.  **Translation**:
     *   **Description**: Facilitates communication by translating text between languages relevant to Japan travel.
 
 ---
