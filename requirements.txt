@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+requests
+rembg
+torch
+torchvision
+opencv-python
+numpy
+Pillow
+segment-anything
+ultralytics
+pydub
+azure-cognitiveservices-speech
