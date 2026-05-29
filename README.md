@@ -11,14 +11,14 @@ Japan_Travel_Assistant integrates multiple AI capabilities to enhance the travel
 The project focuses on four primary functions, each powered by specific AI technologies:
 
 1.  **Japan Itinerary & AI Chat (with RAG)**:
-    *   **AI Model**: [Ollama](https://ollama.com/) (running `gemma3:1b` locally).
+    *   **AI Model**: [Ollama](https://ollama.com/) (running locally).
     *   **Description**: Provides personalized travel suggestions and answers queries about Japan travel. It includes a **RAG (Retrieval-Augmented Generation)** feature that allows users to upload **PDF**, **TXT** files, or provide **URLs**. The local Ollama model analyzes these documents to provide context-aware answers during chat, making it a powerful tool for referencing personal travel documents or specific web information.
 2.  **Text-to-Speech (TTS)**:
     *   **AI Service**: [Azure AI Speech](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/get-started-text-to-speech)
     *   **Description**: Converts assistant responses into natural-sounding speech.
 3.  **Picture Removal & Upscale**:
-    *   **AI Models**: [Stability AI](https://stability.ai/) (via FastAPI), [Replicate](https://replicate.com/) (via Next.js API), and [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
-    *   **Description**: Allows users to remove unwanted people from travel photos and upscale images for better quality.
+    *   **AI Models**: [Stability AI](https://stability.ai/) (via FastAPI) and [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
+    *   **Description**: Allows users to remove people from travel photos and upscale images for better quality.
 4.  **Translation**:
     *   **Description**: Facilitates communication by translating text between languages relevant to Japan travel.
 
@@ -38,7 +38,6 @@ The project focuses on four primary functions, each powered by specific AI techn
 ### 1. Ollama (Local LLM)
 Users must manually download and install **Ollama** to run the local LLM used for the itinerary and chat functions.
 *   Download: [https://ollama.com/](https://ollama.com/)
-*   Model used: `gemma3:1b` (Run `ollama run gemma3:1b` to ensure it's available).
 
 ### 2. Real-ESRGAN (Image Upscaling)
 Due to file size constraints, the Real-ESRGAN model must be downloaded manually.
@@ -52,7 +51,6 @@ Create a `.env` file in the root directory and configure the following keys:
 SPEECH_KEY=your_azure_speech_key
 ENDPOINT=your_azure_speech_endpoint
 STABILITY_API_KEY=your_stability_api_key
-REPLICATE_API_TOKEN=your_replicate_token
 ```
 
 ---
