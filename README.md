@@ -27,9 +27,11 @@ The project focuses on four primary functions, each powered by specific AI techn
 ---
 
 ## Screenshots
+
 **Customize Chatbot's Responses**
 
 <img width="605" height="480" alt="image" src="https://github.com/user-attachments/assets/f9f4a11c-fe47-4a6d-b587-f866240cbb2a" />
+
 
 **RAG Function**
 
@@ -37,13 +39,16 @@ The project focuses on four primary functions, each powered by specific AI techn
 
 <img width="1610" height="854" alt="image" src="https://github.com/user-attachments/assets/0fe2efa3-6d23-4c90-9ff3-43fc83ebda1a" />
 
+
 **TTS**
 
 <img width="599" height="205" alt="image" src="https://github.com/user-attachments/assets/9e18db3f-f571-4cee-a58d-57cd335469e5" />
 
+
 **Picture Upscale (Real-ESRGAN)**
 
 <img width="1600" height="853" alt="image" src="https://github.com/user-attachments/assets/58ba05b6-8779-4480-80c0-f348b26b7061" />
+
 
 **Piccture Removal (Stability AI API)**
 
