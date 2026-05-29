@@ -16,10 +16,12 @@ The project focuses on four primary functions, each powered by specific AI techn
 2.  **Text-to-Speech (TTS)**:
     *   **AI Service**: [Azure AI Speech](https://learn.microsoft.com/en-us/azure/ai-services/speech-service/get-started-text-to-speech)
     *   **Description**: Converts assistant responses into natural-sounding speech.
-3.  **Picture Removal & Upscale**:
+3.  **RAG (Retrieval-Augmented Generation)**:
+    *   **Description**: Users can upload their own **PDF**, **TXT** files, or provide **URLs**. The AI will analyze these documents to provide context-aware answers during chat, making it a powerful tool for referencing personal travel documents or specific web information.
+4.  **Picture Removal & Upscale**:
     *   **AI Models**: [Stability AI](https://stability.ai/) (via FastAPI), [Replicate](https://replicate.com/) (via Next.js API), and [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN).
     *   **Description**: Allows users to remove unwanted people from travel photos and upscale images for better quality.
-4.  **Translation**:
+5.  **Translation**:
     *   **Description**: Facilitates communication by translating text between languages relevant to Japan travel.
 
 ---
