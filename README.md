@@ -1,3 +1,5 @@
+
+
 # Japan_Travel_Assistant
 
 This is a class group project designed to provide an AI-powered assistant for travelers in Japan. The entire project was developed using **Vibe coding**, leveraging **V0** for frontend web construction, **Claude** for backend logic and integration, and various AI APIs and models for specialized functions.
@@ -25,11 +27,22 @@ The project focuses on four primary functions, each powered by specific AI techn
 ---
 
 ## Screenshots
+**Customize Chatbot's Responses**
+<img width="605" height="480" alt="image" src="https://github.com/user-attachments/assets/f9f4a11c-fe47-4a6d-b587-f866240cbb2a" />
 
-*(Space reserved for project images)*
+**RAG Function**
+<img width="1606" height="865" alt="image" src="https://github.com/user-attachments/assets/950410dd-a719-4026-b4b8-22ee3f88b459" />
 
-<!-- [Add Screenshot 1 Here] -->
-<!-- [Add Screenshot 2 Here] -->
+<img width="1610" height="854" alt="image" src="https://github.com/user-attachments/assets/0fe2efa3-6d23-4c90-9ff3-43fc83ebda1a" />
+
+**TTS**
+<img width="599" height="205" alt="image" src="https://github.com/user-attachments/assets/9e18db3f-f571-4cee-a58d-57cd335469e5" />
+
+**Picture Upscale (Real-ESRGAN)**
+<img width="1600" height="853" alt="image" src="https://github.com/user-attachments/assets/58ba05b6-8779-4480-80c0-f348b26b7061" />
+
+**Piccture Removal (Stability AI API)**
+<img width="1602" height="850" alt="image" src="https://github.com/user-attachments/assets/1982318c-f67d-4347-897d-014487c28dae" />
 
 ---
 
